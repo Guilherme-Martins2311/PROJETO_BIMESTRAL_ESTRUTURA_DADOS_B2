@@ -26,7 +26,6 @@ O objetivo do trabalho é implementar um **programa em linguagem C** que:
 
 ## Estruturas Utilizadas
 
-```c
 typedef struct Cidade {
     char Nome[256];         // Nome da cidade
     int Posicao;            // Distância (em km) da fronteira oeste
@@ -38,7 +37,6 @@ typedef struct {
     int T;        // Comprimento total da estrada
     Cidade *Inicio; // Ponteiro para a primeira cidade da lista
 } Estrada;
-```
 
 Essas estruturas formam uma **lista encadeada** que representa as cidades posicionadas ao longo da estrada.
 
@@ -87,12 +85,11 @@ O programa percorre todas as cidades e retorna o **menor valor** encontrado.
 
 ## Exemplo de Arquivo de Entrada (`teste01.txt`)
 
-```
 10
 2
 8 Birnin_Zana
 5 Birnin_SYan
-```
+
 
 ### Interpretação:
 - Comprimento da estrada: **10 km**
@@ -113,32 +110,23 @@ O programa percorre todas as cidades e retorna o **menor valor** encontrado.
 
 No terminal (PowerShell, CMD ou Bash), dentro da pasta do projeto:
 
-```bash
 gcc main.c cidades.c -o cidades.exe
-```
 
 ### Execução
 
-```bash
 ./cidades
-```
 
 ### Saída esperada
 
-```
 === RESULTADOS DA ESTRADA DE WAKANDA ===
 Comprimento total da estrada: 10
 Número de cidades: 2
 Menor vizinhança: 3.50 km
 Cidade com menor vizinhança: Birnin_Zana
 =========================================
-```
-
----
 
 ## Estrutura Final do Projeto
 
-```
 TP02_Estrada_de_Wakanda/
 │
 ├── cidades.c
@@ -146,9 +134,6 @@ TP02_Estrada_de_Wakanda/
 ├── main.c
 ├── teste01.txt
 └── README.md
-```
-
----
 
 ## Liberação de Memória
 
@@ -173,5 +158,5 @@ TP02_Estrada_de_Wakanda/
 - Sempre recompile após qualquer modificação no código.
 
 ---
-- **Aluno:** *[Seu Nome Aqui]*  
+- **Alunos:** João Aparecido Ferreira Neto, Guilherme Martins, Gustavo José  
 - **Ano:** 2025  
