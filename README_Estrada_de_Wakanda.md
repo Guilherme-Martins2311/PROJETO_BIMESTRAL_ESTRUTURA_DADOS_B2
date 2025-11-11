@@ -15,12 +15,11 @@ O objetivo do trabalho é implementar um **programa em linguagem C** que:
 
 ## Estrutura do Projeto
 
-| Arquivo | Descrição |
-|----------|------------|
-| **cidades.h** | Cabeçalho contendo as definições das estruturas e protótipos das funções. |
-| **cidades.c** | Implementa as funções principais (`getEstrada`, `calcularMenorVizinhanca` e `cidadeMenorVizinhanca`). |
-| **main.c** | Arquivo principal de teste que chama as funções e exibe o resultado no terminal. |
-| **teste01.txt** | Arquivo de entrada com os dados da estrada e das cidades. |
+
+- **cidades.h** - Cabeçalho contendo as definições das estruturas e protótipos das funções. 
+- **cidades.c** - Implementa as funções principais (`getEstrada`, `calcularMenorVizinhanca` e `cidadeMenorVizinhanca`). 
+- **main.c** - Arquivo principal de teste que chama as funções e exibe o resultado no terminal. 
+- **teste01.txt** - Arquivo de entrada com os dados da estrada e das cidades. 
 
 ---
 
