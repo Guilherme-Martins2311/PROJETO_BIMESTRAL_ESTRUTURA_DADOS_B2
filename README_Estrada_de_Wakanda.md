@@ -1,6 +1,6 @@
-# 🛣️ Estrada de Wakanda — Trabalho Prático de Estruturas de Dados (UCB)
+# Estrada de Wakanda — Trabalho Prático de Estruturas de Dados (UCB)
 
-## 📘 Descrição do Problema
+## Descrição do Problema
 
 O rei **T’Challa**, governante de **Wakanda**, decidiu construir uma estrada que atravessa o país de **oeste a leste**.  
 Essa estrada passa pelo **centro de algumas cidades**, e cada cidade será **responsável pela manutenção** do trecho da estrada **mais próximo** dela.
@@ -13,7 +13,7 @@ O objetivo do trabalho é implementar um **programa em linguagem C** que:
 
 ---
 
-## 🧩 Estrutura do Projeto
+## Estrutura do Projeto
 
 | Arquivo | Descrição |
 |----------|------------|
@@ -24,7 +24,7 @@ O objetivo do trabalho é implementar um **programa em linguagem C** que:
 
 ---
 
-## ⚙️ Estruturas Utilizadas
+## Estruturas Utilizadas
 
 ```c
 typedef struct Cidade {
@@ -44,9 +44,9 @@ Essas estruturas formam uma **lista encadeada** que representa as cidades posici
 
 ---
 
-## 🧠 Lógica do Programa
+## Lógica do Programa
 
-### 1️⃣ Leitura dos dados (`getEstrada`)
+### Leitura dos dados (`getEstrada`)
 - Abre o arquivo `teste01.txt`;
 - Lê:
   - `T` → comprimento total da estrada;
@@ -62,7 +62,7 @@ Essas estruturas formam uma **lista encadeada** que representa as cidades posici
 
 ---
 
-### 2️⃣ Cálculo da menor vizinhança (`calcularMenorVizinhanca`)
+### Cálculo da menor vizinhança (`calcularMenorVizinhanca`)
 
 A **vizinhança** de uma cidade é o trecho da estrada **mais próximo** dela do que de qualquer outra cidade.  
 O cálculo depende da posição da cidade:
@@ -78,14 +78,14 @@ O programa percorre todas as cidades e retorna o **menor valor** encontrado.
 
 ---
 
-### 3️⃣ Cidade com menor vizinhança (`cidadeMenorVizinhanca`)
+### Cidade com menor vizinhança (`cidadeMenorVizinhanca`)
 - Repete o cálculo da função anterior;
 - Armazena o **índice da cidade** com a menor vizinhança;
 - Retorna uma **string** com o nome dessa cidade.
 
 ---
 
-## 📄 Exemplo de Arquivo de Entrada (`teste01.txt`)
+## Exemplo de Arquivo de Entrada (`teste01.txt`)
 
 ```
 10
@@ -94,20 +94,20 @@ O programa percorre todas as cidades e retorna o **menor valor** encontrado.
 5 Birnin_SYan
 ```
 
-### 🧮 Interpretação:
+### Interpretação:
 - Comprimento da estrada: **10 km**
 - Cidades:
   - Birnin Zana → posição 8 km
   - Birnin S’Yan → posição 5 km
 
-### 📊 Resultado esperado:
+### Resultado esperado:
 - Vizinhança de Birnin Zana: **3,5 km**
 - Vizinhança de Birnin S’Yan: **6,5 km**
 - Cidade com menor vizinhança: **Birnin Zana**
 
 ---
 
-## 🖥️ Exemplo de Execução
+## Exemplo de Execução
 
 ### Compilação
 
@@ -136,7 +136,7 @@ Cidade com menor vizinhança: Birnin_Zana
 
 ---
 
-## 📦 Estrutura Final do Projeto
+## Estrutura Final do Projeto
 
 ```
 TP02_Estrada_de_Wakanda/
@@ -150,7 +150,7 @@ TP02_Estrada_de_Wakanda/
 
 ---
 
-## 🧹 Liberação de Memória
+## Liberação de Memória
 
 - Cada cidade criada é liberada com `free()` no final da execução;
 - A estrutura `Estrada` também é liberada;
@@ -158,7 +158,7 @@ TP02_Estrada_de_Wakanda/
 
 ---
 
-## 🧠 Requisitos de Execução
+## Requisitos de Execução
 
 - Compilador **GCC** (ou Dev-C++, Code::Blocks, VSCode com extensão de C);
 - Sistema operacional: **Windows**, **Linux** ou **MacOS**;
@@ -166,18 +166,12 @@ TP02_Estrada_de_Wakanda/
 
 ---
 
-## ✅ Dicas
+## Dicas
 
 - Mantenha o nome do arquivo de entrada exatamente igual: `teste01.txt`;
 - Evite acentos e apóstrofos nos nomes das cidades (use `_`);
 - Sempre recompile após qualquer modificação no código.
 
 ---
-
-## 👨‍💻 Autor
-
-- **Universidade Católica de Brasília – UCB**  
-- **Disciplina:** Estruturas de Dados  
-- **Professor:** Marcelo Eustáquio  
 - **Aluno:** *[Seu Nome Aqui]*  
 - **Ano:** 2025  
